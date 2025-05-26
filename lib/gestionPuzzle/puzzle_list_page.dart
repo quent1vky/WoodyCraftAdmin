@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../service/puzzle_service.dart'; // Importer PuzzleService
-import 'create_puzzle_page.dart'; // Importer CreatePuzzlePage
+// Importer CreatePuzzlePage
 
 class PuzzleListPage extends StatefulWidget {
   const PuzzleListPage({super.key});

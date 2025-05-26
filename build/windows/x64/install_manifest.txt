@@ -1,0 +1,12 @@
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/icudtl.dat
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/flutter_windows.dll
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin.json
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/kernel_blob.bin
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/NOTICES.Z
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+U:/WoodyCraftAdmin/build/windows/x64/runner/Debug/data/flutter_assets/shaders/ink_sparkle.frag

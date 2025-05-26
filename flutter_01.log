@@ -1,0 +1,71 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter debug_adapter
+
+## exception
+
+FileSystemException: FileSystemException: writeFrom failed, path = '' (OS Error: Le canal de communication est sur le point d’être fermé.
+, errno = 232)
+
+```
+#0      _checkForErrorResponse (dart:io/common.dart:56:9)
+#1      _RandomAccessFile.writeFrom.<anonymous closure> (dart:io/file_impl.dart:885:7)
+#2      _rootRunUnary (dart:async/zone.dart:1422:47)
+<asynchronous suspension>
+#3      _FileStreamConsumer.addStream.<anonymous closure>.<anonymous closure>.<anonymous closure> (dart:io/file_impl.dart:218:21)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[!] Flutter (Channel stable, 3.27.1, on Microsoft Windows [version 10.0.19044.2965], locale fr-FR)
+    • Flutter version 3.27.1 on channel stable at C:\flutter
+    ! The flutter binary is not on your path. Consider adding C:\flutter\bin to your path.
+    ! The dart binary is not on your path. Consider adding C:\flutter\bin to your path.
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 17025dd882 (4 months ago), 2024-12-17 03:23:09 +0900
+    • Engine revision cb4b5fff73
+    • Dart version 3.6.0
+    • DevTools version 2.40.2
+    • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
+
+[✓] Windows Version (Installed version of Windows is version 10 or higher)
+
+[✗] Android toolchain - develop for Android devices
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/to/windows-android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, please use
+      `flutter config --android-sdk` to update to that location.
+
+
+[✗] Chrome - develop for the web (Cannot find Chrome executable at .\Google\Chrome\Application\chrome.exe)
+    ! Cannot find Chrome. Try setting CHROME_EXECUTABLE to a Chrome executable.
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Enterprise 2022 17.6.4)
+    • Visual Studio at C:\Program Files\Microsoft Visual Studio\2022\Enterprise
+    • Visual Studio Enterprise 2022 version 17.6.33815.320
+    • Windows 10 SDK version 10.0.22000.0
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/to/windows-android-setup for detailed instructions).
+
+[✓] VS Code, 64-bit edition (version 1.93.1)
+    • VS Code at C:\Program Files\Microsoft VS Code
+    • Flutter extension version 3.108.0
+
+[✓] Connected device (2 available)
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [version 10.0.19044.2965]
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 135.0.3179.66
+
+[✓] Network resources
+    • All expected network resources are available.
+
+! Doctor found issues in 4 categories.
+```

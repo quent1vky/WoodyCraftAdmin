@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="U:\WoodyCraftAdmin\build\windows\x64\CMakeFiles\fdd39fc3f20fb2293e600c38c5eccf2b\flutter_windows.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="U:\WoodyCraftAdmin\build\windows\x64\CMakeFiles\0de02ff1377f6091854eaabb381a010f\flutter_assemble.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="U:\WoodyCraftAdmin\windows\flutter\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="U:\WoodyCraftAdmin\build\windows\x64\flutter\CMakeFiles\flutter_assemble" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4C68B864-1E4A-3F4C-AE7E-EDE8522DACCF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
